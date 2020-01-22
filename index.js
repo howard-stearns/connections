@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+'use strict';
 
-// based on http://www.bford.info/pub/net/p2pnat/index.html
+const PORT = 8443;
 
 var socketA = null;
 var socketB = null;
@@ -31,7 +32,7 @@ var server = require('net').createServer(function (socket) {
 	}
 });
 
-server.listen(9999, function (err) {
+server.listen(PORT, function (err) {
 	if(err) return console.log(err);
 
 	console.log('server listening on', server.address().address + ':' + server.address().port);

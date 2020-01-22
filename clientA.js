@@ -7,8 +7,8 @@ var rl = readline.createInterface({
 
 // based on http://www.bford.info/pub/net/p2pnat/index.html
 
-var addressOfS = 'x.x.x.x'; // replace this with the IP of the server running publicserver.js
-var portOfS = 9999;
+var addressOfS = 'localhost'; // replace this with the IP of the server running publicserver.js
+var portOfS = 8443;
 
 var socketToS;
 var tunnelEstablished = false;
@@ -59,7 +59,6 @@ function connectToS () {
 }
 
 connectToS();
-
 
 function connectTo (ip, port) {
 	if(tunnelEstablished) return;

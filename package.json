@@ -1,9 +1,20 @@
 {
-  "name": "node-tcp-hole-punching",
-  "version": "0.0.1",
-  "scripts": {
-    "start": "node app"
-  },
-  "dependencies": {
-  }
+    "name": "connections",
+    "version": "0.0.1",
+    "description": "Test bed for investigating connectivity",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "p2p",
+        "tcp",
+        "connectivity",
+        "rendezvous",
+        "hole-punching",
+        "nat"
+    ],
+    "author": "High Fidelity",
+    "license": "ISC"
 }

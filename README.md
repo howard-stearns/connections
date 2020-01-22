@@ -1,4 +1,10 @@
-# node-tcp-hole-punching
+# Connections
+
+A test bed for investigating connectivity.
+
+This started out as a fork of [https://github.com/SamDecrock/node-tcp-hole-punching], which was in turn based on the work of [http://www.bford.info/pub/net/p2pnat/index.html].
+
+## node-tcp-hole-punching
 Node.js script to demonstrate TCP hole punching through NAT
 
 
@@ -15,7 +21,7 @@ Important: Run clientA.js first, run clientB.js second. (The only reason for thi
 
 Good Luck!
 
-## Output 
+### Output 
 
 Output should be something like this:
 
